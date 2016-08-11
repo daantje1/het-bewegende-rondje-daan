@@ -1,4 +1,4 @@
-float x = 0;
+float x = 10;
 
 void setup()
 {
@@ -7,6 +7,6 @@ void setup()
 
 void draw()
 {
-  ellipse(x,50,50,50);
-  x = x + 1;
+  ellipse(x,100,100,100);
+  x = x + 5;
 }
